@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ruang_Football</title>
+
+    <meta name="description" content="Pengelola Keuangan"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="/manifest.json"/>
+    <meta name="theme-color" content="#1976d2">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://crests.football-data.org">
+    <link rel="preconnect" href="https://upload.wikimedia.org">
+    
+    <link rel="shortcut icon" href="/custom-icon.png">
+    <link rel="apple-touch-icon" href="/apple-icon.png">
+</head>
+<body>
+    <!-- Nav -->
+        <nav class="blue darken-2" role="navigation">
+            <div class="nav-wrapper container">
+                <a href="#" class="brand-logo" id="logo-container">Ruang_Football</a>
+                <a href="#" class="sidenav-trigger" data-target="nav-mobile"><i class="material-icons">more_vert</i></a>
+
+                <ul class="topnav right hide-on-med-and-down"></ul>
+                <ul class="sidenav" id="nav-mobile"></ul>
+            </div>
+        </nav>
+    <!-- Finish Nav -->
+
+    <!-- Content -->
+    <div class="container" id="body-content"></div>
+    <!-- Preloader -->
+    <div class="container loading" id="preloader">
+        <div class="preloader-wrapper active">
+            <div class="spinner-layer spinner-red-only">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div><div class="gap-patch">
+                    <div class="circle"></div>
+                </div><div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Finish Content -->
+    
+    <script src="js/materialize.min.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/sw-register.js"></script>
+    <script src="js/api.js"></script>  
+    <script src="js/idb.js"></script>
+    <script src="js/db.js"></script>  
+    
+</body>
+</html>

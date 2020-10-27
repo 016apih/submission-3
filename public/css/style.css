@@ -1,0 +1,22 @@
+.row {
+    margin: 0px;
+}
+
+.card-item {
+    background-color: aqua;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.card-content {
+    overflow-y: auto;
+    max-height: 240;
+}
+.p {
+    overflow-y: auto;  
+    width: 40%;
+}
+.loading {
+    text-align: center;
+    margin-top: 25%;
+}
